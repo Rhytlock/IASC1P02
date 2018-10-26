@@ -1,0 +1,58 @@
+/* For some mysterious reason this is the one that doesn't always seem to work */
+.textRecolor {
+  color: green;
+}
+
+/* Just makes the font 80px */
+.sizeText {
+  font-size:80px;
+}
+
+/* Just makes the thing monospace */
+.fontChange {
+  font-family: monospace;
+}
+
+/* Just makes the thing uppercase */
+.caseChangeUpper {
+  text-transform: uppercase;
+}
+
+/* Just makes the thing lowercase */
+.caseChangeLower {
+  text-transform: lowercase;
+}
+
+/* Nested Selector with margins and padding to demonstrate "Box" model*/
+div p {
+  margin: 50px;
+  border: 10px solid green;
+}
+
+/* Class using grouped selectors (I think?)*/
+h1, h2, h3 .headerClass{
+  color: lime;
+}
+
+/* Relative position */
+ol {
+  position: relative;
+  left: 150px;
+}
+
+/* Fixed position image */
+.backgroundFun{
+  position: fixed;
+  top: 500px;
+  left: 200px;
+  opacity: 0.2
+}
+
+/* fixed position header - looks terrible btw */
+h5 {
+  position: fixed;
+  color: green;
+  font-size: 100px;
+  top: 590px;
+
+}
